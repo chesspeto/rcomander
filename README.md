@@ -4,6 +4,8 @@
 
 A two-panel terminal file manager for Debian/WSL, inspired by Midnight Commander. It supports local and remote SSH navigation, as well as copying files with rsync, SCP, or direct local copying.
 
+![RCommander two-panel interface](rcomander.png)
+
 ## Run
 
 From the project directory in Debian/WSL:
