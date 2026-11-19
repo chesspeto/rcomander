@@ -55,3 +55,7 @@ Use F1 or F2, select **Remote SSH**, and enter `user@server` or an alias from `~
 Ctrl+S opens an interactive SSH console. If the active panel is remote, it uses that connection and starts in the panel's current directory; the panel is refreshed on exit. If the active panel is local, it asks for a server and password and opens an independent console. Type `exit` or press Ctrl+D to return to the application.
 
 Unknown host keys are automatically accepted on first connection; SSH rejects a changed known host key. To verify a fingerprint beforehand, connect with `ssh user@server`. Remote navigation requires Python 3 on the server; rsync must also be installed at both ends to use it. This alpha supports only one remote endpoint per transfer.
+
+####License
+
+GNU General Public License v3.0 or later.
